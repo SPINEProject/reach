@@ -1,0 +1,52 @@
+Anatomical transformation entity	FMA:85817
+Anatomical transformation relationship	FMA:50713
+Anatomical fission	FMA:293335
+Anatomical fusion	FMA:293333
+Gestational derivation	FMA:81383
+Gestational transformation	FMA:293337
+Involution	FMA:50715
+Developmental entity	FMA:85818
+Cell development	FMA:70325
+Cell determination	FMA:70327
+Cell differentation	FMA:70328
+Cell restriction	FMA:70326
+Developmental process	FMA:81382
+Gene effect transformation	FMA:295500
+Gene facilitated transformation	FMA:306206
+Gene repressed transformation	FMA:312865
+Gestational development process	FMA:293317
+Embryological development process	FMA:50714
+Epithelial-to-mesenchymal transformation	FMA:295507
+EMT	FMA:295507
+Gastrulation	FMA:295503
+Ingression	FMA:295504
+Neural induction	FMA:293861
+Neurulation	FMA:295614
+Primary neurulation	FMA:295626
+Secondary neurulation	FMA:295628
+Organogenesis	FMA:295531
+Fetal development process	FMA:292384
+Maturation	FMA:67816
+Postnatal development	FMA:293319
+Joint movement	FMA:23139
+Abduction	FMA:23863
+Adduction	FMA:23864
+Circumduction	FMA:23866
+Extension	FMA:23862
+Flexion	FMA:23861
+Opposition	FMA:32435
+Pronation	FMA:32433
+Reposition	FMA:32436
+Rotation	FMA:23865
+Lateral rotation	FMA:32431
+External rotation	FMA:32431
+Medial rotation	FMA:32432
+Internal rotation	FMA:32432
+Supination	FMA:32434
+Muscle action	FMA:23867
+Antagonist	FMA:23869
+Prime mover	FMA:23868
+Shunt action	FMA:23871
+Spurt action	FMA:23872
+Stabilizer	FMA:23873
+Synergist	FMA:23870

@@ -1,0 +1,130 @@
+Anatomical relation	FMA:45723
+Physical anatomical relation	FMA:295975
+Has mass relation	FMA:295977
+Has_dimension relation	FMA:264684
+Has_dimension anatomical relation	FMA:264684
+Structural anatomical relation	FMA:50627
+Anatomical boundary	FMA:256502
+Bona fide anatomical boundary	FMA:256504
+Fiat anatomical boundary	FMA:224749
+Fixed fiat anatomical boundary	FMA:225902
+Floating fiat anatomical boundary	FMA:227941
+Has_part relation	FMA:67530
+Anatomical part relation	FMA:67530
+Has_constitutional_part relation	FMA:80049
+Constitutional part relation	FMA:80049
+Has_generic_part relation	FMA:80047
+Generic anatomical part relation	FMA:80047
+Has_general_part relation	FMA:80047
+Has_member relation	FMA:63821
+Membership	FMA:63821
+Has_regional_part relation	FMA:80058
+Regional part relation	FMA:80058
+Has_systemic_part relation	FMA:80059
+Systemic part relation	FMA:80059
+Has_shape relation	FMA:264685
+Has_shape anatomical relation	FMA:264685
+Spatial association relation	FMA:52548
+Anatomical location	FMA:50707
+Adjacent_to relation	FMA:67393
+Anatomical adjacency	FMA:67393
+Has_anatomical_coordinate relation	FMA:50710
+Anatomical coordinate adjacency	FMA:50710
+Organ anatomical coordinate adjacency	FMA:68080
+Organ part anatomical coordinate adjacency	FMA:68037
+Surrounds relation	FMA:67391
+Anatomical containment	FMA:50635
+Anatomical coordinate	FMA:23133
+Anatomical axis	FMA:23133
+Anatomical geometric coordinate	FMA:23134
+Axis of limb	FMA:72650
+Limb axis	FMA:72650
+Axis of pelvis	FMA:49500
+Axis pelvis	FMA:49500
+Pelvic axis	FMA:49500
+Anatomical qualitative coordinate	FMA:30346
+Anatomical coordinate point	FMA:49455
+Anatomical landmark	FMA:9651
+Linear anatomical coordinate	FMA:49448
+Diameter of pelvis	FMA:20249
+Pelvic diameter	FMA:20249
+Anatomical conjugate	FMA:49507
+Anteroposterior diameter of pelvic inlet	FMA:17419
+Diagonal conjugate	FMA:49511
+External conjugate	FMA:49514
+Baudelocque's diameter	FMA:49514
+Intercristal diameter	FMA:49516
+Intercristal distance	FMA:49516
+Interspinous diameter	FMA:49515
+Interspinous distance	FMA:49515
+Intertrochanteric diameter	FMA:49517
+Intertrochanteric distance	FMA:49517
+Median conjugate	FMA:49513
+Oblique diameter of pelvic inlet	FMA:17421
+Straight conjugate	FMA:49512
+Transverse diameter of pelvic inlet	FMA:17420
+Transverse diameter of pelvis	FMA:49502
+True conjugate	FMA:49510
+Median line	FMA:49453
+Anterior median line	FMA:20310
+Posterior median line	FMA:20311
+Planar anatomical coordinate	FMA:49449
+Apical	FMA:74541
+Axial	FMA:74547
+Basal	FMA:74542
+Basilar	FMA:74543
+Caudal	FMA:74539
+Coronal	FMA:74529
+Cranial	FMA:74538
+Dorsal	FMA:74535
+Extensor	FMA:74561
+External	FMA:74548
+Fibular	FMA:74555
+Flexor	FMA:74559
+Frontal	FMA:74536
+Horizontal	FMA:74527
+Intermediate	FMA:74531
+Internal	FMA:74549
+Longitudinal	FMA:74546
+Luminal	FMA:74550
+Median	FMA:74528
+Middle	FMA:74544
+Occipital	FMA:74525
+Palmar	FMA:74557
+Peroneal	FMA:74554
+Plantar	FMA:74560
+Rostral	FMA:74540
+Sagittal	FMA:74530
+Tibial	FMA:74556
+Transverse	FMA:74545
+Ulnar	FMA:74553
+Ventral	FMA:74534
+Vertical	FMA:74526
+Volar	FMA:74558
+Anatomical orientation	FMA:23138
+Has_orientation relation	FMA:23138
+Anatomical laterality	FMA:52549
+Anatomical position	FMA:23132
+Anatomical configuration	FMA:23132
+Connected_to relation	FMA:62802
+Anatomical connectivity	FMA:62802
+Attached_to relation	FMA:62804
+Anatomical attachment	FMA:62804
+Ligament attachment	FMA:72651
+Muscle attachment relation	FMA:63127
+Muscle (organ) attachment relation	FMA:63129
+Muscle (subdivision) attachment relation	FMA:63128
+Continuous_with relation	FMA:62803
+Anatomical continuity	FMA:62803
+Intermolecular bond	FMA:85706
+Synaptic connectivity	FMA:61858
+Vascular connectivity	FMA:79766
+Arterial connectivity	FMA:79765
+Lymphatic connectivity	FMA:79768
+Venous connectivity	FMA:79767
+Taxonomic anatomical relation	FMA:256058
+Instance relation	FMA:264215
+Is_a relationship	FMA:50626
+Class inclusion relationship	FMA:50626
+Class subsumption	FMA:50626
+Type relation	FMA:256061
