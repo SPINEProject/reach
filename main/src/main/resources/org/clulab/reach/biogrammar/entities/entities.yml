@@ -296,3 +296,50 @@ rules:
       [entity='I-Family']*
       )
       [lemma=inhibitor & !entity=/^(B|I)/]
+
+  - name: FMA-organ
+    label: Organ
+    action: mkBioMentions
+    example: "anatomical set"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='FMA-organ']
+
+  - name: FMA-anatomical-relation
+    label: AnatomicalRelation
+    action: mkBioMentions
+    example: "physical anatomical relation"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='FMA-anatomical-relation']
+
+  - name: FMA-anatomical-transformation-entity
+    label: AnatomicalTransformationEntity
+    action: mkBioMentions
+    example: "anatomical transformation relationship"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='FMA-anatomical-transformation-entity']
+
+  - name: FMA-organizational-pattern
+    label: OrganizationalPattern
+    action: mkBioMentions
+    example: "ampullary type of renal pelvis"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='FMA-organizational-pattern']
+
+  - name: FMA-segmental-innervation
+    label: SegmentalInnervation
+    action: mkBioMentions
+    example: "cervical segmental innervation"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='FMA-segmental-innervation']
+
+

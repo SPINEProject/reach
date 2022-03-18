@@ -79,6 +79,11 @@
                       - Gene_or_gene_product
                       - Complex
                       - GENE
+          - Organ
+          - AnatomicalRelation
+          - AnatomicalTransformationEntity
+          - OrganizationalPattern
+          - SegmentalInnervation
 
 # a preliminary taxonomy for assembly (precedence relations)
 - Precedence:
