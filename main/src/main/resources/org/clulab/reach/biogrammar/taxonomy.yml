@@ -67,6 +67,11 @@
     - Entity:
       # Any BioEntity may appear as the controlled in an Activation
       - BioEntity:
+          - Organ
+          - AnatomicalRelation
+          - AnatomicalTransformationEntity
+          - OrganizationalPattern
+          - SegmentalInnervation
           - Disease
           - BioProcess   # ex. "apoptosis"
           - BioChemicalEntity:
@@ -79,11 +84,6 @@
                       - Gene_or_gene_product
                       - Complex
                       - GENE
-          - Organ
-          - AnatomicalRelation
-          - AnatomicalTransformationEntity
-          - OrganizationalPattern
-          - SegmentalInnervation
 
 # a preliminary taxonomy for assembly (precedence relations)
 - Precedence:

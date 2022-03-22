@@ -297,49 +297,49 @@ rules:
       )
       [lemma=inhibitor & !entity=/^(B|I)/]
 
-  - name: FMA-organ
+  - name: ner-organ
     label: Organ
-    action: mkBioMentions
+    action: mkNERMentions
     example: "anatomical set"
     priority: 3
     type: token
     pattern: |
-      [entity='FMA-organ']
+      [entity='B-organ'] [entity='I-organ']
 
-  - name: FMA-anatomical-relation
+  - name: ner-anatomical-relation
     label: AnatomicalRelation
-    action: mkBioMentions
+    action: mkNERMentions
     example: "physical anatomical relation"
     priority: 3
     type: token
     pattern: |
-      [entity='FMA-anatomical-relation']
+      [entity='B-anatomical-relation'] [entity='I-anatomical-relation']
 
-  - name: FMA-anatomical-transformation-entity
+  - name: ner-anatomical-transformation-entity
     label: AnatomicalTransformationEntity
-    action: mkBioMentions
+    action: mkNERMentions
     example: "anatomical transformation relationship"
     priority: 3
     type: token
     pattern: |
-      [entity='FMA-anatomical-transformation-entity']
+      [entity='B-anatomical-transformation-entity'] [entity='I-anatomical-transformation-entity']
 
-  - name: FMA-organizational-pattern
+  - name: ner-organizational-pattern
     label: OrganizationalPattern
-    action: mkBioMentions
+    action: mkNERMentions
     example: "ampullary type of renal pelvis"
     priority: 3
     type: token
     pattern: |
-      [entity='FMA-organizational-pattern']
+      [entity='B-organizational-pattern'] [entity='I-organizational-pattern']
 
-  - name: FMA-segmental-innervation
+  - name: ner-segmental-innervation
     label: SegmentalInnervation
-    action: mkBioMentions
+    action: mkNERMentions
     example: "cervical segmental innervation"
     priority: 3
     type: token
     pattern: |
-      [entity='FMA-segmental-innervation']
+      [entity='B-segmental-innervation'] [entity='I-segmental-innervation']
 
 
