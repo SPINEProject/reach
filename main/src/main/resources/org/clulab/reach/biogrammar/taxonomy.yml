@@ -67,6 +67,11 @@
     - Entity:
       # Any BioEntity may appear as the controlled in an Activation
       - BioEntity:
+          - Organ
+          - AnatomicalRelation
+          - AnatomicalTransformationEntity
+          - OrganizationalPattern
+          - SegmentalInnervation
           - Disease
           - BioProcess   # ex. "apoptosis"
           - BioChemicalEntity:

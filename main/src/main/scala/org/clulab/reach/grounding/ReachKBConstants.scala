@@ -113,4 +113,19 @@ object ReachKBConstants {
   /** Filename of a file containing just Protein Domain suffixes; one per line. */
   val ProteinDomainShortNamesFilename = "proteinDomains-short.txt"
 
+  /** Filename of the anatomical relation file. */
+  val AnatomicalRelationFilename = "fma_indra_anatomical_relation.tsv"
+
+  /** Filename of the anatomical transformation entity file. */
+  val AnatomicalTransformationEntityFilename = "fma_indra_anatomical_transformation_entity.tsv"
+
+  /** Filename of the material anatomical entity file. */
+  val OrganFilename = "fma_indra_Material anatomical entity.tsv"
+
+  /** Filename of the organizational pattern file. */
+  val OrganizationalPatternFilename = "fma_indra_organizational_pattern.tsv"
+
+  /** Filename of the segmental innervation file. */
+  val SegmentalInnervationFilename = "fma_indra_segmental_innervation.tsv"
+
 }

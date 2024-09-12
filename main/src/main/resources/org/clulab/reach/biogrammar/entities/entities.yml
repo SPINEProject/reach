@@ -296,3 +296,50 @@ rules:
       [entity='I-Family']*
       )
       [lemma=inhibitor & !entity=/^(B|I)/]
+
+  - name: ner-organ
+    label: Organ
+    action: mkNERMentions
+    example: "anatomical set"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='B-organ'] [entity='I-organ']
+
+  - name: ner-anatomical-relation
+    label: AnatomicalRelation
+    action: mkNERMentions
+    example: "physical anatomical relation"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='B-anatomical-relation'] [entity='I-anatomical-relation']
+
+  - name: ner-anatomical-transformation-entity
+    label: AnatomicalTransformationEntity
+    action: mkNERMentions
+    example: "anatomical transformation relationship"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='B-anatomical-transformation-entity'] [entity='I-anatomical-transformation-entity']
+
+  - name: ner-organizational-pattern
+    label: OrganizationalPattern
+    action: mkNERMentions
+    example: "ampullary type of renal pelvis"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='B-organizational-pattern'] [entity='I-organizational-pattern']
+
+  - name: ner-segmental-innervation
+    label: SegmentalInnervation
+    action: mkNERMentions
+    example: "cervical segmental innervation"
+    priority: 3
+    type: token
+    pattern: |
+      [entity='B-segmental-innervation'] [entity='I-segmental-innervation']
+
+

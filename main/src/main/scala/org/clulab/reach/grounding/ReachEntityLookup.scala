@@ -50,6 +50,10 @@ class ReachEntityLookup {
 //      case "Site" => augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("Site"))
 //      case "Species" => augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("Species"))
 //      case "TissueType" => augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("TissueType"))
+//      case "AnatomicalRelation" =>  augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("AnatomicalRelation"))
+//      case "AnatomicalTransformationEntity" =>  augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("AnatomicalTransformationEntity"))
+//      case "OrganizationalPattern" =>  augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("OrganizationalPattern"))
+//      case "SegmentalInnervation" =>  augmentMention(mention, extraKBs ++ ReachIMKBMentionLookups.configuredKBML("SegmentalInnervation"))
 //      case _ =>  augmentMention(mention, azFailsafeSeq)
 //    }
 
